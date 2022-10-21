@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(216, 203, 197, 255);
+}
+
+/* header */
+header {
+    display: grid;
+}
+
+header h1 {
+    font-size: 72px;
+    font-family: 'Meddon', cursive;
+    color: rgba(19, 52, 76, 255);
+    display: block;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+.headerText {
+    z-index: 666;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.backgroundImage {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+div img {
+    width: 100%;
+}
+
+.menu a {
+    color: rgba(57, 63, 92, 255);
+    font-family: 'Allison', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.menu {
+    margin: 20px 20%;
+}
+
+.menu ul li:hover .DD {
+    display: block;
+}
+
+.l1,
+.l2,
+.l3,
+.l4 {
+    position: relative;
+}
+
+
+.menu a:hover {
+    color: rgba(44, 20, 61, 255);
+
+}
+
+.DD {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: max-content;
+    z-index: 666;
+    background-color: rgba(245, 245, 220, 0.8);
+    border-radius: 12px;
+}
+
+.DD ul a {
+    font-size: 30px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu ul .current {
+    color: rgba(136, 82, 127, 1);
+}
+
+/* footer */
+footer p {
+    font-family: 'Meddon', cursive;
+    text-align: center;
+
+}
+
+footer {
+
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(200, 187, 191, 255);
+
+}
+
+/* main index */
+main {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    margin-top: 80px;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    font-size: 50px;
+}
+
+main p {
+    font-family: 'Ephesis', cursive;
+    font-size: 25px;
+}
+
+.sida {
+    background-image: url("./vines-removebg-preview.png");
+    background-repeat: repeat-y;
+    background-size: 20%;
+    background-position: right 50% top 0%;
+}
+
+.gamearetuza img {
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.frontpagegallery {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 184fr 63fr;
+
+
+}
+
+.frontpagegallery img {
+    border-radius: 10px;
+}
+
+
+/* about*/
+.aboutMain {
+    display: grid;
+
+}
+
+.aboutText1 {
+    padding-bottom: 20px;
+}
+
+.map img {
+    border-radius: 12px;
+}
+
+.aboutText2 {
+    padding-top: 20px;
+}
+
+/* former students and teachers*/
+
+.studentGallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'Ephesis', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.studentGallery p {
+    font-size: 20px;
+}
+
+.klara img {
+    opacity: 0.9;
+}
+
+/* faq */
+
+h4 {
+    font-family: 'Ephesis', cursive;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+/* signUp*/
+.textLink {
+    text-decoration: none;
+    color: rgba(136, 82, 127, 1);
+}
+
+.textLink:hover {
+    color: rgba(44, 20, 61, 255);
+}
+
+/* Price list */
+
+.grid-table {
+    display: grid;
+    background-color: black;
+    grid-gap: 1px;
+    border: 1px solid black;
+    grid-template-columns: 2fr 1fr;
+    font-family: 'Ephesis', cursive;
+    font-size: 20px;
+}
+
+.grid-table div {
+    background-color: rgba(216, 203, 197, 255);
+}
+
+.price {
+    text-align: right;
+}
+
+.price,
+.product {
+    padding: 4px;
+}
+
+
+/* subjects/education */
+
+.first-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+
+}
+
+
+.edu-text1 {
+    font-family: 'Ephesis', cursive;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.edu-text2 {
+    font-family: 'Ephesis', cursive;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+/* accomodation*/
+
+h5 {
+    font-size: 22px;
+    font-family: 'Ephesis', cursive;
+    font-weight: normal;
+}
+
+.halls img {
+    border-radius: 20px;
+    opacity: 0.9;
+    margin-top: 10px;
+}
